@@ -22,7 +22,7 @@ function buttonClickHandler() {
 	xhr.getResponseHeader('Content-type', 'application/json');
 
 	// What to do on progress (optional)
-	xhr.onprogress = function() {
+	xhr.onprogress = function () {
 		console.log('On progress');
 	};
 
@@ -42,7 +42,7 @@ function buttonClickHandler() {
 
 	// What to do when response is ready
 	// 200 means response code it means response ok
-	xhr.onload = function() {
+	xhr.onload = function () {
 		if (this.status === 200) {
 			console.log(this.responseText);
 		} else {
@@ -70,7 +70,7 @@ function popHandler() {
 	xhr.open('GET', 'http://dummy.restapiexample.com/api/v1/employees', true);
 
 	// What to do when response is ready
-	xhr.onload = function() {
+	xhr.onload = function () {
 		if (this.status === 200) {
 			let obj = JSON.parse(this.responseText);
 			console.log(obj);
