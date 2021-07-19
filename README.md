@@ -16,6 +16,6 @@ Ohh! installation. No, you did not need any thing except only a text-editor like
 
 ## If you want to run any .js file.
 - First open that .js file.
-- Whatever you use as a text-editor you simply run that file by the help of run button and any other thing in your text-editor that run your files.
+- Whatever you use as a text-editor you simply run that file by the help of run button ▶️ and any other thing in your text-editor that run your files.
 - If you take care of every steps that I shown here you did not face any difficulty.
 - Now enjoy the code:fire:.
